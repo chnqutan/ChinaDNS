@@ -62,8 +62,8 @@ Install
 * Mac
 
     1. Download [Proxifier](https://www.proxifier.com/). 
-    2. Use `Direct` action for  China ip range in [china_ip_range.txt](china_ip_range.txt).
-    3. Use `Direct` action for localhost(127.0.0.1), router(such as 192.168.1.1) , your proxy server and other IPs/hosts you want to directly connect.
+    2. Use `Direct` action for  China ip range in [china_ip_range.txt](china_ip_range.txt) refering to [China IP Address Ranges](https://lite.ip2location.com/china-ip-address-ranges).
+    3. Use `Direct` action for localhost(127.0.0.1), router(such as 192.168.1.1) , your proxy server out of China and other IPs/hosts you want to directly connect.
     4. Config your proxy and use your proxy for `Default`.
 
 Usage
