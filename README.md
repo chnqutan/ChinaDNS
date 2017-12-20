@@ -59,6 +59,10 @@ Install
 
     [Download] Python exe version.
 
+* Mac
+
+    Download [Proxifier](https://www.proxifier.com/) . Use `Direct` action for  China ip range in `china_ip_range.txt` and use your proxy for `Default`.
+
 Usage
 -----
 
