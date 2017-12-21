@@ -63,7 +63,7 @@ Install
 
     1. Download [Proxifier](https://www.proxifier.com/). 
     2. Use `Direct` action for  China ip range in [china_ip_range.txt](china_ip_range.txt) refering to [China IP Address Ranges](https://lite.ip2location.com/china-ip-address-ranges).
-    3. Use `Direct` action for localhost(127.0.0.1), router(such as 192.168.1.1) , your proxy server out of China and other IPs/hosts you want to directly connect.
+    3. Use `Direct` action for localhost(127.0.0.1), private IPs(10.0.0.0-10.255.255.255;172.16.0.0-172.31.255.255;192.168.0.0-192.168.255.255) , your proxy server out of China and other IPs/hosts you want to directly connect.
     4. Config your proxy and use your proxy for `Default`.
 
 Usage
@@ -110,7 +110,7 @@ Test if it works correctly:
     ;; ANSWER SECTION:
     www.youtube.com.	21569	IN	CNAME	youtube-ui.l.google.com.
     youtube-ui.l.google.com. 269	IN	A	216.58.220.174
-
+    
     ;; Query time: 74 msec
     ;; SERVER: 127.0.0.1#5353(127.0.0.1)
     ;; WHEN: Fri Jan 30 18:37:57 2015
@@ -128,7 +128,7 @@ Advanced
     usage: chinadns [-h] [-l IPLIST_FILE] [-b BIND_ADDR] [-p BIND_PORT]
            [-c CHNROUTE_FILE] [-s DNS] [-v]
     Forward DNS requests.
-
+    
     -h, --help            show this help message and exit
     -l IPLIST_FILE        path to ip blacklist file
     -c CHNROUTE_FILE      path to china route file
